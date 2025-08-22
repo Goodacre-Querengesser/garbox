@@ -2450,6 +2450,16 @@
 		)
 		(uuid "541ff489-f076-4c09-a32c-188706076ae1")
 	)
+	(text "exposed for the header"
+		(exclude_from_sim no)
+		(at 132.842 41.148 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "65ad1409-915d-4b23-ab7e-65e20b63fd2c")
+	)
 	(text "USB to UART"
 		(exclude_from_sim no)
 		(at 98.806 78.232 0)
@@ -2487,12 +2497,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ebf5db4-d4da-4808-b105-0044c9f9a4da")
-	)
-	(junction
-		(at 127 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2da6e49a-5cda-436e-9431-153bc036b21e")
 	)
 	(junction
 		(at 210.82 52.07)
@@ -2579,6 +2583,12 @@
 		(uuid "9c5d0d35-6892-495a-bb49-c40354218b86")
 	)
 	(junction
+		(at 142.24 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d625db5-e24d-4888-942c-45f5ccf5184f")
+	)
+	(junction
 		(at 62.23 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2589,6 +2599,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0924c8d-4b77-45a1-a5f4-51194e6ed3c0")
+	)
+	(junction
+		(at 144.78 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c72c6087-86a3-48c3-8177-26ed8e2e6fe0")
 	)
 	(junction
 		(at 208.28 87.63)
@@ -2830,7 +2846,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 86.36) (xy 147.32 86.36)
+			(xy 124.46 86.36) (xy 142.24 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2960,6 +2976,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 44.45) (xy 144.78 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb51378-0bc0-446b-bbd1-fb461c88674e")
+	)
+	(wire
+		(pts
 			(xy 69.85 76.2) (xy 73.66 76.2)
 		)
 		(stroke
@@ -2977,6 +3003,16 @@
 			(type default)
 		)
 		(uuid "3797fd86-58d8-45b2-936d-5a465e385262")
+	)
+	(wire
+		(pts
+			(xy 142.24 46.99) (xy 142.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2a3737-eeb3-487a-b0cc-73d1d1eee55e")
 	)
 	(wire
 		(pts
@@ -3060,6 +3096,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 44.45) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ae5757-0eba-4748-9f93-f0db5c681f37")
+	)
+	(wire
+		(pts
 			(xy 207.01 87.63) (xy 208.28 87.63)
 		)
 		(stroke
@@ -3140,6 +3186,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 83.82) (xy 147.32 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d44465-de96-49f9-97f5-9c361e256648")
+	)
+	(wire
+		(pts
 			(xy 166.37 67.31) (xy 166.37 86.36)
 		)
 		(stroke
@@ -3207,16 +3263,6 @@
 			(type default)
 		)
 		(uuid "6ceaf0f0-8292-4a49-9e09-4c4e2a06c5f9")
-	)
-	(wire
-		(pts
-			(xy 127 127) (xy 127 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d3466a0-0df2-48de-afed-d897a82f5dcc")
 	)
 	(wire
 		(pts
@@ -3330,7 +3376,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 132.08) (xy 127 127)
+			(xy 127 124.46) (xy 127 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3430,6 +3476,26 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 86.36) (xy 147.32 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97af69c5-cc8f-4fde-8862-78748ab05fa3")
+	)
+	(wire
+		(pts
+			(xy 134.62 46.99) (xy 142.24 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e6ebc9-8a5d-4c86-a75a-47b527c4c426")
+	)
+	(wire
+		(pts
 			(xy 54.61 93.98) (xy 62.23 93.98)
 		)
 		(stroke
@@ -3487,16 +3553,6 @@
 			(type default)
 		)
 		(uuid "abeb5f55-7997-4759-bd2f-ab8e8541ed9e")
-	)
-	(wire
-		(pts
-			(xy 132.08 114.3) (xy 132.08 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b24bc80a-7c5c-4102-9741-9b48a8b619f0")
 	)
 	(wire
 		(pts
@@ -3690,7 +3746,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 83.82) (xy 147.32 83.82)
+			(xy 124.46 83.82) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3820,16 +3876,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 127) (xy 127 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe6b43f0-3773-49dd-8be6-1692c5885f0d")
-	)
-	(wire
-		(pts
 			(xy 62.23 101.6) (xy 62.23 102.87)
 		)
 		(stroke
@@ -3849,7 +3895,7 @@
 		(uuid "1d278a50-c0e4-4bd8-bed4-b28162331f5d")
 	)
 	(label "USB_D-"
-		(at 147.32 86.36 180)
+		(at 140.97 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3859,7 +3905,7 @@
 		(uuid "49e09276-e2dd-4cfe-8049-bafdd42926bf")
 	)
 	(label "USB_D+"
-		(at 147.32 83.82 180)
+		(at 140.97 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3978,9 +4024,42 @@
 		)
 		(uuid "f46cf0f6-558f-45b6-8068-376dcc9cb0cf")
 	)
+	(hierarchical_label "USB_Internal_D+"
+		(shape passive)
+		(at 134.62 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18ae7410-d63f-4101-a580-fcc382988919")
+	)
+	(hierarchical_label "USB_Internal_D-"
+		(shape passive)
+		(at 134.62 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1bd8f6f3-bcbf-40a6-b2b6-b0d4a56fe76a")
+	)
+	(hierarchical_label "DCD#"
+		(shape passive)
+		(at 118.11 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c6a0782-cdad-42fa-8759-f06965e67043")
+	)
 	(hierarchical_label "CTS#"
 		(shape input)
-		(at 132.08 114.3 90)
+		(at 127 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4033,6 +4112,17 @@
 		)
 		(uuid "e6f6f48b-30fd-4938-937e-26d34ae6dd39")
 	)
+	(hierarchical_label "DSR#"
+		(shape passive)
+		(at 109.22 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea0db01a-bf6b-46f3-8fde-7fe5f5311b2c")
+	)
 	(hierarchical_label "PowerOut"
 		(shape output)
 		(at 218.44 38.1 90)
@@ -4054,6 +4144,17 @@
 			(justify right)
 		)
 		(uuid "fbd6b806-2b55-4cb6-86eb-cc7f00c42022")
+	)
+	(hierarchical_label "RI#"
+		(shape passive)
+		(at 99.06 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fdbb8251-3672-499f-9136-0b4fe3264086")
 	)
 	(symbol
 		(lib_id "power:GND")
