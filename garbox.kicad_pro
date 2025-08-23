@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.254
+          "min_clearance": 0.635
         }
       },
       "diff_pair_dimensions": [
@@ -123,22 +123,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0762,
-        "min_connection": 0.0762,
-        "min_copper_edge_clearance": 0.508,
+        "min_clearance": 0.1016,
+        "min_connection": 0.127,
+        "min_copper_edge_clearance": 0.3048,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.254,
-        "min_microvia_diameter": 0.2032,
-        "min_microvia_drill": 0.1016,
+        "min_hole_clearance": 0.2032,
+        "min_hole_to_hole": 0.2032,
+        "min_microvia_diameter": 0.0508,
+        "min_microvia_drill": 0.0254,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3048,
-        "min_track_width": 0.1524,
+        "min_silk_clearance": 0.0508,
+        "min_text_height": 0.635,
+        "min_text_thickness": 0.0762,
+        "min_through_hole_diameter": 0.1524,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.1016,
-        "min_via_diameter": 0.508,
+        "min_via_diameter": 0.3556,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -188,7 +188,6 @@
       ],
       "track_widths": [
         0.0,
-        0.1524,
         0.2032,
         0.381,
         0.762
@@ -493,7 +492,7 @@
         "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.3048,
-        "microvia_drill": 0.3048,
+        "microvia_drill": 0.254,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
@@ -505,23 +504,41 @@
       },
       {
         "clearance": 0.254,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.1524,
+        "microvia_diameter": 0.3048,
+        "microvia_drill": 0.254,
         "name": "power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "pcb_color": "rgb(255, 98, 12)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6096,
         "via_diameter": 0.762,
         "via_drill": 0.381
       },
       {
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.1524,
+        "microvia_diameter": 0.3048,
+        "microvia_drill": 0.254,
+        "name": "signal",
+        "pcb_color": "rgb(24, 106, 17)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2032,
+        "via_diameter": 0.4318,
+        "via_drill": 0.3048
+      },
+      {
         "clearance": 0.1524,
         "diff_pair_gap": 0.1524,
         "diff_pair_width": 0.1524,
         "microvia_diameter": 0.3048,
-        "microvia_drill": 0.3048,
+        "microvia_drill": 0.254,
         "name": "small",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "pcb_color": "rgb(180, 48, 255)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "via_diameter": 0.6096,
@@ -533,7 +550,32 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "power",
+        "pattern": "GND*"
+      },
+      {
+        "netclass": "power",
+        "pattern": "*V"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/Power*"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "*"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/*"
+      },
+      {
+        "netclass": "power",
+        "pattern": "*3V3*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

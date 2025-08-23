@@ -2331,6 +2331,18 @@
 		)
 		(uuid ae04485f-a54d-4006-b7b6-506900d10289)
 	)
+	(rectangle
+		(start 27.94 78.74)
+		(end 53.34 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c6f07c7b-f6e8-4157-829d-5af72a2c16ce)
+	)
 	(text "AUDIO"
 		(exclude_from_sim no)
 		(at 76.708 40.132 0)
@@ -2342,6 +2354,16 @@
 			)
 		)
 		(uuid "06cac303-7ba3-4d72-943e-3b3505947c59")
+	)
+	(text "Header breakout"
+		(exclude_from_sim no)
+		(at 34.036 79.756 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "4b98632a-d5e5-4867-830a-dfa1f09aca3a")
 	)
 	(text "AMP"
 		(exclude_from_sim no)
@@ -2398,6 +2420,12 @@
 		(uuid "5ef219f9-958c-4cf2-aba3-9651adfba835")
 	)
 	(junction
+		(at 170.18 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82da7af4-02e7-48ed-b8da-da771bdf1943")
+	)
+	(junction
 		(at 148.59 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2408,6 +2436,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae5f9e30-6ba3-4da2-b308-9edc42d48f45")
+	)
+	(junction
+		(at 171.45 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9c9d6b9-eae0-4d01-af11-8db420a2aa18")
 	)
 	(junction
 		(at 90.17 77.47)
@@ -2511,6 +2545,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 49.53) (xy 179.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c5ef2c-7c79-4aa7-8838-743adf63e844")
+	)
+	(wire
+		(pts
 			(xy 90.17 67.31) (xy 95.25 67.31)
 		)
 		(stroke
@@ -2558,6 +2602,16 @@
 			(type default)
 		)
 		(uuid "304f6e16-5d2f-4db7-88f7-1c4314c61922")
+	)
+	(wire
+		(pts
+			(xy 186.69 52.07) (xy 186.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3306e176-acef-403a-b549-6755fe1860e3")
 	)
 	(wire
 		(pts
@@ -2611,6 +2665,26 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 88.9) (xy 39.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4187ad0f-0ef9-4732-be2c-64aa594a9a1f")
+	)
+	(wire
+		(pts
+			(xy 186.69 62.23) (xy 179.07 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4214f547-d05b-4700-bb56-a54b3a6d55e8")
+	)
+	(wire
+		(pts
 			(xy 148.59 97.79) (xy 148.59 93.98)
 		)
 		(stroke
@@ -2651,6 +2725,36 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 49.53) (xy 179.07 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5120ccc1-8fbc-4cee-8238-267261b10fb7")
+	)
+	(wire
+		(pts
+			(xy 186.69 59.69) (xy 186.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cabe139-87e3-4ce6-924e-1b58a9d5a186")
+	)
+	(wire
+		(pts
+			(xy 179.07 62.23) (xy 179.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d5b1bcc-fc76-467f-adb5-55f966f810d0")
+	)
+	(wire
+		(pts
 			(xy 161.29 109.22) (xy 161.29 107.95)
 		)
 		(stroke
@@ -2658,6 +2762,16 @@
 			(type default)
 		)
 		(uuid "645001be-66a4-4372-b990-e910bf7e0aa0")
+	)
+	(wire
+		(pts
+			(xy 171.45 54.61) (xy 179.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6933481e-58b8-4107-9d7c-66078a1118d6")
 	)
 	(wire
 		(pts
@@ -2718,6 +2832,16 @@
 			(type default)
 		)
 		(uuid "7f23e3fd-cbdb-48dc-9a8d-890e845c91ab")
+	)
+	(wire
+		(pts
+			(xy 179.07 57.15) (xy 170.18 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fb4c0b-4d6b-47ab-a103-c82972ad2d17")
 	)
 	(wire
 		(pts
@@ -2808,6 +2932,16 @@
 			(type default)
 		)
 		(uuid "bb979ca2-affb-41ab-bb81-459095e291b3")
+	)
+	(wire
+		(pts
+			(xy 43.18 85.09) (xy 39.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ff27b4-7d67-4249-8a22-2167d6c8ed1a")
 	)
 	(wire
 		(pts
@@ -2959,6 +3093,16 @@
 		)
 		(uuid "fcc894f1-4698-42d9-b52d-e25e6e820ee2")
 	)
+	(label "A_OUT_R"
+		(at 43.18 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50e4d97a-818b-43d4-ade4-76518eb30cb6")
+	)
 	(label "IN+"
 		(at 100.33 121.92 0)
 		(effects
@@ -2968,6 +3112,16 @@
 			(justify left bottom)
 		)
 		(uuid "70598f1c-9cc1-4b1d-83f2-9f2653435029")
+	)
+	(label "IN+"
+		(at 43.18 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70861902-c999-4f52-8d93-06174fd56491")
 	)
 	(label "A_OUT_R"
 		(at 106.68 87.63 0)
@@ -3009,6 +3163,17 @@
 			(justify right)
 		)
 		(uuid "024c6e30-d9b7-438b-b942-a676dfb64aab")
+	)
+	(hierarchical_label "PreAmp"
+		(shape passive)
+		(at 39.37 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c2e1f7f-ada9-42f1-9ac6-eece932c2b95")
 	)
 	(hierarchical_label "AMP_ENABLE"
 		(shape input)
@@ -3064,6 +3229,17 @@
 			(justify right)
 		)
 		(uuid "5236f4fd-d814-400b-bba9-5837123954ae")
+	)
+	(hierarchical_label "PostDAC"
+		(shape passive)
+		(at 39.37 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5be176e5-7601-4c27-ad84-4f7deaa449f1")
 	)
 	(hierarchical_label "i2s_SCLK"
 		(shape input)
@@ -4086,6 +4262,77 @@
 			(project "garbox"
 				(path "/e66b6024-0366-4f6a-a697-473ffced0d7c/7a530924-455b-4752-9a2b-034dacbf5709"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CL31A106KBHNNNE:CL31A106KBHNNNE")
+		(at 186.69 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96ac4e02-db19-4c5e-a7d6-f01d9f5ccfd7")
+		(property "Reference" "C24"
+			(at 188.722 55.118 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 187.452 57.658 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CL31A106KBHNNNE:CAP_CL31_SAM"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CL31A106KBHNNNE"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CL31A106KBHNNNE"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d50228b-b905-46d7-9838-5c1f06f6d9e9")
+		)
+		(pin "1"
+			(uuid "71d4bcaa-8746-472d-a2b7-36bd1fd6d095")
+		)
+		(instances
+			(project "garbox"
+				(path "/e66b6024-0366-4f6a-a697-473ffced0d7c/7a530924-455b-4752-9a2b-034dacbf5709"
+					(reference "C24")
 					(unit 1)
 				)
 			)
