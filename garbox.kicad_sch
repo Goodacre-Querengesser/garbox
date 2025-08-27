@@ -5057,7 +5057,7 @@
 		)
 		(uuid "469ce386-f94b-4d9d-aa19-d1499d349576")
 	)
-	(label "GPIO_08"
+	(label "GPIO_04"
 		(at 151.13 40.64 0)
 		(effects
 			(font
@@ -5490,7 +5490,7 @@
 		)
 		(uuid "b070f0c7-af17-46a6-8dab-d876310bb40b")
 	)
-	(label "GPIO_08"
+	(label "GPIO_04"
 		(at 62.23 30.48 180)
 		(effects
 			(font
