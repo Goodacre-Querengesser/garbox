@@ -6146,6 +6146,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C57369"
+			(at 26.67 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "01"
 			(uuid "e05ffd0b-6d7c-44ab-9eb8-b18c96b4b4f5")
 		)
@@ -6265,6 +6274,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3333064"
+			(at 26.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6428,6 +6446,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C23345"
+			(at 181.61 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a19c5038-07ad-40d0-858e-3cf66a4508c5")
 		)
@@ -6523,6 +6550,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C57369"
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6791,6 +6827,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C1848"
+			(at 163.83 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5aa3ddc0-3796-4da6-9a55-c3c9e71e3df9")
 		)
@@ -6887,6 +6932,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C57369"
+			(at 147.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7049,6 +7103,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C23345"
+			(at 100.33 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b3d69316-6ef8-47c4-bd9b-fa384f3e0af4")
 		)
@@ -7111,6 +7174,15 @@
 		)
 		(property "Description" "0603WAF2700T5E"
 			(at 204.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C22966"
+			(at 204.47 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,6 +7259,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C23345"
+			(at 181.61 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "733e4c36-d76e-4206-bd8e-1471b0b2f9f7")
 		)
@@ -7247,6 +7328,15 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
+			(at 39.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C143788"
 			(at 39.37 72.39 0)
 			(effects
 				(font
@@ -7318,6 +7408,15 @@
 		)
 		(property "Description" "0603WAF1002T5E"
 			(at 189.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C25804"
+			(at 189.23 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,6 +7589,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C57369"
+			(at 119.38 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "01"
 			(uuid "2cc74a08-085d-4daf-a0dd-45386560a4de")
 		)
@@ -7651,6 +7759,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2286"
 			(at 212.09 50.8 0)
 			(effects
 				(font
@@ -8155,6 +8272,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C57369"
+			(at 39.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "01"
 			(uuid "d02f1c76-d1d2-46bb-a1d9-0e13b05d6382")
 		)
@@ -8251,6 +8377,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C13585"
+			(at 158.75 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d3c51a1-babb-4924-aa91-10ddf6330faa")
 		)
@@ -8315,6 +8450,15 @@
 		)
 		(property "Description" "CL05B104KO5NNNC"
 			(at 168.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1525"
+			(at 168.91 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8524,6 +8668,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C23345"
+			(at 100.33 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ef9b765-31c6-456d-b46a-2c4c0fb6e045")
 		)
@@ -8717,6 +8870,15 @@
 			)
 		)
 		(property "Description" "Microcontroller ESP32"
+			(at 151.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2913200"
 			(at 151.13 33.02 0)
 			(effects
 				(font
@@ -8987,6 +9149,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C25804"
+			(at 196.85 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "11e3c9f0-1e5f-4d5c-a7ff-c4aeda364750")
 		)
@@ -9049,6 +9220,15 @@
 		)
 		(property "Description" "0603WAF2700T5E"
 			(at 204.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C22966"
+			(at 204.47 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9126,6 +9306,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2286"
 			(at 212.09 58.42 0)
 			(effects
 				(font

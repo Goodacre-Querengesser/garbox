@@ -58,7 +58,76 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|112653936|48878500|17a56cf8-c222-49d0-a56b-762d840d5f40|f6aab8ea-17ba-4978-ac32-348c50528df3",
+          ""
+        ],
+        [
+          "clearance|113114500|47039425|6a431d32-7eae-4154-b5dc-3ad396db2ef3|b0652ece-9a63-46b8-88b3-bc06df3cc37d",
+          ""
+        ],
+        [
+          "clearance|113114500|48426113|9e8046e9-8ca2-4e49-b7f5-41ed201a0adf|f6aab8ea-17ba-4978-ac32-348c50528df3",
+          ""
+        ],
+        [
+          "clearance|114068320|49389500|6e144d86-8aaf-4388-8375-736b5104f3b9|81d82fe5-c6b6-43dd-88f0-e8d43a5a1a66",
+          ""
+        ],
+        [
+          "clearance|114514500|49834468|81d82fe5-c6b6-43dd-88f0-e8d43a5a1a66|d0fbeace-82ef-45e9-8a55-77123e2aae0f",
+          ""
+        ],
+        [
+          "clearance|134720000|133860000|7fa2a4ae-147e-4592-bac2-14f496674466|f94c4691-0e8b-4fc3-b7c9-abeadde5a356",
+          ""
+        ],
+        [
+          "clearance|91945000|167540000|f42aea1b-8076-43da-abcf-bc98a49b8a47|d6e110bd-cdc3-4d8a-8408-f0e8d3742d2e",
+          ""
+        ],
+        [
+          "copper_edge_clearance|105882500|168930000|4382ed1b-d5ec-46fd-8562-d3cc1ff8853c|d71517b1-beb0-4fde-a843-a3a78bd31665",
+          "doesnt matter if it shorts to GND"
+        ],
+        [
+          "hole_clearance|112653936|48878500|f6aab8ea-17ba-4978-ac32-348c50528df3|17a56cf8-c222-49d0-a56b-762d840d5f40",
+          ""
+        ],
+        [
+          "hole_clearance|112653936|49389500|df8427d8-9121-4db4-a507-4bd3afc1ea16|17a56cf8-c222-49d0-a56b-762d840d5f40",
+          ""
+        ],
+        [
+          "hole_clearance|112661158|47478500|6a431d32-7eae-4154-b5dc-3ad396db2ef3|bc7b7c87-1663-451c-b0e9-77eeda6d1a60",
+          ""
+        ],
+        [
+          "hole_clearance|113114500|47039425|6a431d32-7eae-4154-b5dc-3ad396db2ef3|b0652ece-9a63-46b8-88b3-bc06df3cc37d",
+          ""
+        ],
+        [
+          "hole_clearance|113114500|48426113|f6aab8ea-17ba-4978-ac32-348c50528df3|9e8046e9-8ca2-4e49-b7f5-41ed201a0adf",
+          ""
+        ],
+        [
+          "hole_clearance|113114500|49841690|df8427d8-9121-4db4-a507-4bd3afc1ea16|f60b30ac-df9c-4d86-bfb8-086373ab737d",
+          ""
+        ],
+        [
+          "hole_clearance|114068320|49389500|81d82fe5-c6b6-43dd-88f0-e8d43a5a1a66|6e144d86-8aaf-4388-8375-736b5104f3b9",
+          ""
+        ],
+        [
+          "hole_clearance|114514500|49834468|81d82fe5-c6b6-43dd-88f0-e8d43a5a1a66|d0fbeace-82ef-45e9-8a55-77123e2aae0f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|113114500|49841690|f60b30ac-df9c-4d86-bfb8-086373ab737d|df8427d8-9121-4db4-a507-4bd3afc1ea16",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -123,9 +192,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1016,
-        "min_connection": 0.127,
-        "min_copper_edge_clearance": 0.3048,
+        "min_clearance": 0.09906,
+        "min_connection": 0.0508,
+        "min_copper_edge_clearance": 0.254,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2032,
         "min_hole_to_hole": 0.2032,
@@ -136,10 +205,10 @@
         "min_text_height": 0.635,
         "min_text_thickness": 0.0762,
         "min_through_hole_diameter": 0.1524,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.1016,
-        "min_via_diameter": 0.3556,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_track_width": 0.0508,
+        "min_via_annular_width": 0.09906,
+        "min_via_diameter": 0.2794,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -642,7 +711,7 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -655,12 +724,156 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "A_min",
+          "name": "A_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "A_nom",
+          "name": "A_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_max",
+          "name": "D_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_min",
+          "name": "D_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_nom",
+          "name": "D_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_max",
+          "name": "E_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_min",
+          "name": "E_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_nom",
+          "name": "E_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L1_max",
+          "name": "L1_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L1_min",
+          "name": "L1_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L1_nom",
+          "name": "L1_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_max",
+          "name": "L_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_min",
+          "name": "L_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_nom",
+          "name": "L_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "A_max",
+          "name": "A_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
