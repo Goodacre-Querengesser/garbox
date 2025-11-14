@@ -424,6 +424,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 111.76 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1dbf822e-aae1-4129-9dbe-ad52445eee5d")
 		)

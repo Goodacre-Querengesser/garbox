@@ -2307,6 +2307,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 128.27 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4805abd2-b45b-40b5-b102-584bc9239596")
 		)
@@ -2380,6 +2389,15 @@
 			)
 		)
 		(property "MPN" "C13585"
+			(at 123.19 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 123.19 81.28 90)
 			(effects
 				(font
@@ -2499,7 +2517,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C22367949"
+		(property "MPN" "C393941"
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 163.83 88.9 0)
 			(effects
 				(font
@@ -2617,6 +2644,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 81.28 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aee7e0db-3159-4e8a-887a-2e70469a8412")
 		)
@@ -2685,6 +2721,15 @@
 			)
 		)
 		(property "MPN" "C25804"
+			(at 68.58 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 68.58 80.01 90)
 			(effects
 				(font
@@ -2769,6 +2814,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 87.63 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "232ebbb2-a856-40d6-ab14-9e1253b8740f")
 		)
@@ -2837,6 +2891,15 @@
 			)
 		)
 		(property "MPN" "C25804"
+			(at 74.93 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 74.93 80.01 90)
 			(effects
 				(font
@@ -2986,6 +3049,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 93.98 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "66a5b1a1-7639-44be-8013-766d48867fa8")
 		)
@@ -3058,6 +3130,15 @@
 			)
 		)
 		(property "MPN" "C1525"
+			(at 133.35 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 133.35 81.28 90)
 			(effects
 				(font

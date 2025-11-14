@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.254
+          "min_clearance": 0.1778
         }
       },
       "diff_pair_dimensions": [
@@ -59,10 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        [
-          "clearance|112653936|48878500|17a56cf8-c222-49d0-a56b-762d840d5f40|f6aab8ea-17ba-4978-ac32-348c50528df3",
-          ""
-        ],
         [
           "clearance|113114500|47039425|6a431d32-7eae-4154-b5dc-3ad396db2ef3|b0652ece-9a63-46b8-88b3-bc06df3cc37d",
           ""
@@ -86,10 +82,6 @@
         [
           "clearance|91945000|167540000|f42aea1b-8076-43da-abcf-bc98a49b8a47|d6e110bd-cdc3-4d8a-8408-f0e8d3742d2e",
           ""
-        ],
-        [
-          "copper_edge_clearance|105882500|168930000|4382ed1b-d5ec-46fd-8562-d3cc1ff8853c|d71517b1-beb0-4fde-a843-a3a78bd31665",
-          "doesnt matter if it shorts to GND"
         ],
         [
           "hole_clearance|112653936|48878500|f6aab8ea-17ba-4978-ac32-348c50528df3|17a56cf8-c222-49d0-a56b-762d840d5f40",
@@ -696,16 +688,22 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -723,7 +721,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -853,12 +851,6 @@
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
@@ -867,6 +859,12 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "FIX",
+          "name": "FIX",
           "show": true
         }
       ],

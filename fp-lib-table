@@ -19,4 +19,5 @@
   (lib (name "MSD_4_A")(type "KiCad")(uri "${KIPRJMOD}/lib/MSD_4_A")(options "")(descr ""))
   (lib (name "TS_110_G_A")(type "KiCad")(uri "${KIPRJMOD}/lib/TS_110_G_A")(options "")(descr ""))
   (lib (name "Logo")(type "KiCad")(uri "${KIPRJMOD}/logo")(options "")(descr ""))
+  (lib (name "12402012E212A")(type "KiCad")(uri "${KIPRJMOD}/lib/12402012E212A/footprints.pretty")(options "")(descr ""))
 )

@@ -3381,6 +3381,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 163.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1dfb1e0-5931-462b-b8ea-97c74f7d8d5c")
 		)
@@ -3631,6 +3640,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 165.1 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2f9819f-6c18-403b-ad2f-2b7eb235c84e")
 		)
@@ -3775,6 +3793,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 176.53 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8404d3da-e545-411c-9fa3-14a18fb3e2ba")
 		)
@@ -3844,6 +3871,15 @@
 			)
 		)
 		(property "MPN" "C1002"
+			(at 156.21 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 156.21 124.46 90)
 			(effects
 				(font
@@ -3923,6 +3959,15 @@
 			)
 		)
 		(property "MPN" "C2895053"
+			(at 90.17 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 90.17 52.07 0)
 			(effects
 				(font
@@ -4063,7 +4108,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "CL31A106KBHNNNE:CAP_CL31_SAM"
 			(at 90.17 77.47 0)
 			(effects
 				(font
@@ -4093,6 +4138,15 @@
 			)
 		)
 		(property "MPN" "C13585"
+			(at 90.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 90.17 77.47 0)
 			(effects
 				(font
@@ -4243,6 +4297,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 156.21 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8262d487-036e-4e48-a470-a7cd63b4bde5")
 		)
@@ -4316,6 +4379,15 @@
 			)
 		)
 		(property "MPN" "C13585"
+			(at 157.48 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 157.48 106.68 90)
 			(effects
 				(font
@@ -4404,6 +4476,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 186.69 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d50228b-b905-46d7-9838-5c1f06f6d9e9")
 		)
@@ -4474,6 +4555,15 @@
 			)
 		)
 		(property "MPN" "C23179"
+			(at 129.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 129.54 87.63 0)
 			(effects
 				(font
@@ -4730,6 +4820,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cee1dee3-493b-42eb-ae7e-49d425888a11")
 		)
@@ -4875,6 +4974,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1994d60c-afe4-4337-a8d4-e62b684ec86d")
 		)
@@ -5008,6 +5116,15 @@
 			)
 		)
 		(property "MPN" "C25804"
+			(at 135.89 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 135.89 93.98 90)
 			(effects
 				(font
@@ -5289,6 +5406,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 104.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "bfb37bc2-4e71-4883-a676-fc1d8d115454")
 		)
@@ -5509,6 +5635,15 @@
 			)
 		)
 		(property "MPN" "C13585"
+			(at 161.29 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 161.29 76.2 90)
 			(effects
 				(font

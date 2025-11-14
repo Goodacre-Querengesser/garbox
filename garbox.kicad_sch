@@ -6080,7 +6080,7 @@
 				)
 			)
 		)
-		(property "Value" "Audio_Header"
+		(property "Value" "TS-110-G-A"
 			(at 25.4 159.766 0)
 			(effects
 				(font
@@ -6107,7 +6107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TS-110-G-A"
+		(property "Description" "Audio_Header"
 			(at 26.67 173.99 0)
 			(effects
 				(font
@@ -6147,6 +6147,15 @@
 			)
 		)
 		(property "MPN" "C57369"
+			(at 26.67 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 26.67 173.99 0)
 			(effects
 				(font
@@ -6211,7 +6220,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_Header"
+		(property "Value" "TS-110-G-A"
 			(at 25.4 119.126 0)
 			(effects
 				(font
@@ -6238,7 +6247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TS-110-G-A"
+		(property "Description" "USB_Header"
 			(at 26.67 133.35 0)
 			(effects
 				(font
@@ -6277,7 +6286,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C3333064"
+		(property "MPN" "C57369"
+			(at 26.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 26.67 133.35 0)
 			(effects
 				(font
@@ -6455,6 +6473,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 181.61 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a19c5038-07ad-40d0-858e-3cf66a4508c5")
 		)
@@ -6487,7 +6514,7 @@
 				)
 			)
 		)
-		(property "Value" "PowerBreakoutHeader"
+		(property "Value" "TS-110-G-A"
 			(at 201.93 82.296 0)
 			(effects
 				(font
@@ -6514,7 +6541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TS-110-G-A"
+		(property "Description" "PowerBreakoutHeader"
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -6554,6 +6581,15 @@
 			)
 		)
 		(property "MPN" "C57369"
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -6836,6 +6872,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 163.83 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5aa3ddc0-3796-4da6-9a55-c3c9e71e3df9")
 		)
@@ -6869,7 +6914,7 @@
 				)
 			)
 		)
-		(property "Value" "BMS_Header"
+		(property "Value" "TS-110-G-A"
 			(at 148.59 111.506 0)
 			(effects
 				(font
@@ -6896,7 +6941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TS-110-G-A"
+		(property "Description" "BMS_Header"
 			(at 147.32 125.73 0)
 			(effects
 				(font
@@ -6936,6 +6981,15 @@
 			)
 		)
 		(property "MPN" "C57369"
+			(at 147.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 147.32 125.73 0)
 			(effects
 				(font
@@ -7112,6 +7166,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 100.33 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b3d69316-6ef8-47c4-bd9b-fa384f3e0af4")
 		)
@@ -7182,6 +7245,15 @@
 			)
 		)
 		(property "MPN" "C22966"
+			(at 204.47 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 204.47 50.8 90)
 			(effects
 				(font
@@ -7268,6 +7340,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 181.61 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "733e4c36-d76e-4206-bd8e-1471b0b2f9f7")
 		)
@@ -7337,6 +7418,15 @@
 			)
 		)
 		(property "MPN" "C143788"
+			(at 39.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 39.37 72.39 0)
 			(effects
 				(font
@@ -7416,6 +7506,15 @@
 			)
 		)
 		(property "MPN" "C25804"
+			(at 189.23 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 189.23 128.27 90)
 			(effects
 				(font
@@ -7523,7 +7622,7 @@
 				)
 			)
 		)
-		(property "Value" "SD_Header"
+		(property "Value" "TS-110-G-A"
 			(at 119.38 154.94 0)
 			(effects
 				(font
@@ -7550,7 +7649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TS-110-G-A"
+		(property "Description" "SD_Header"
 			(at 119.38 170.18 0)
 			(effects
 				(font
@@ -7590,6 +7689,15 @@
 			)
 		)
 		(property "MPN" "C57369"
+			(at 119.38 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 119.38 170.18 0)
 			(effects
 				(font
@@ -7722,7 +7830,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GP_LED"
+		(property "Value" "LED"
 			(at 217.678 46.736 0)
 			(effects
 				(font
@@ -7749,7 +7857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode GP_LED"
 			(at 212.09 50.8 0)
 			(effects
 				(font
@@ -7768,6 +7876,15 @@
 			)
 		)
 		(property "MPN" "C2286"
+			(at 212.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 212.09 50.8 0)
 			(effects
 				(font
@@ -8206,7 +8323,7 @@
 				)
 			)
 		)
-		(property "Value" "GPIO_Header"
+		(property "Value" "TS-110-G-A"
 			(at 38.1 26.416 0)
 			(effects
 				(font
@@ -8233,7 +8350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TS-110-G-A"
+		(property "Description" "GPIO_Header"
 			(at 39.37 40.64 0)
 			(effects
 				(font
@@ -8273,6 +8390,15 @@
 			)
 		)
 		(property "MPN" "C57369"
+			(at 39.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 39.37 40.64 0)
 			(effects
 				(font
@@ -8386,6 +8512,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 158.75 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d3c51a1-babb-4924-aa91-10ddf6330faa")
 		)
@@ -8458,6 +8593,15 @@
 			)
 		)
 		(property "MPN" "C1525"
+			(at 168.91 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 168.91 31.75 90)
 			(effects
 				(font
@@ -8677,6 +8821,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 100.33 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ef9b765-31c6-456d-b46a-2c4c0fb6e045")
 		)
@@ -8879,6 +9032,15 @@
 			)
 		)
 		(property "MPN" "C2913200"
+			(at 151.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 151.13 33.02 0)
 			(effects
 				(font
@@ -9158,6 +9320,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 196.85 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "11e3c9f0-1e5f-4d5c-a7ff-c4aeda364750")
 		)
@@ -9236,6 +9407,15 @@
 				(hide yes)
 			)
 		)
+		(property "FIX" ""
+			(at 204.47 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "41c776cf-51e4-4d2f-836d-5e6239407d5f")
 		)
@@ -9269,7 +9449,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GP_LED"
+		(property "Value" "LED"
 			(at 217.678 54.356 0)
 			(effects
 				(font
@@ -9296,7 +9476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode GP_LED"
 			(at 212.09 58.42 0)
 			(effects
 				(font
@@ -9315,6 +9495,15 @@
 			)
 		)
 		(property "MPN" "C2286"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FIX" ""
 			(at 212.09 58.42 0)
 			(effects
 				(font
