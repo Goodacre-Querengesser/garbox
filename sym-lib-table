@@ -18,4 +18,5 @@
   (lib (name "MSD_4_A")(type "KiCad")(uri "${KIPRJMOD}/lib/MSD_4_A/MSD-4-A.kicad_sym")(options "")(descr ""))
   (lib (name "TS_110_G_A")(type "KiCad")(uri "${KIPRJMOD}/lib/TS_110_G_A/TS-110-G-A.kicad_sym")(options "")(descr ""))
   (lib (name "12402012E212A")(type "KiCad")(uri "${KIPRJMOD}/lib/12402012E212A/2025-11-14_02-46-41.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32_S3_WROOM_1U_N4R8")(type "KiCad")(uri "${KIPRJMOD}/lib/ESP32_S3_WROOM_1U_N4R8/ESP32-S3-WROOM-1U-N4R8.kicad_sym")(options "")(descr ""))
 )
