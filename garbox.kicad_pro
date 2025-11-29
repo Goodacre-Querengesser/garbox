@@ -135,10 +135,10 @@
         "min_silk_clearance": 0.0508,
         "min_text_height": 0.635,
         "min_text_thickness": 0.0762,
-        "min_through_hole_diameter": 0.1524,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0508,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.2794,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -224,12 +224,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.3048,
-          "drill": 0.1524
+          "diameter": 0.45,
+          "drill": 0.2
         },
         {
           "diameter": 0.6096,
-          "drill": 0.3048
+          "drill": 0.3
         },
         {
           "diameter": 0.9144,
